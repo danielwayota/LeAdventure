@@ -10,5 +10,5 @@ public class Key : MonoBehaviour
 		h.AddKey();
 
 		Destroy(this.gameObject);
-	}	
+	}
 }
