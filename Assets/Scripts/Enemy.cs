@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
 		}
 		else
 		{
-			// Kill the player
+			h.Die();
 		}
 	}
 }

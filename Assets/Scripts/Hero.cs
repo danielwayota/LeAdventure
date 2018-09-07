@@ -78,4 +78,12 @@ public class Hero : MonoBehaviour
         }
         return false;
     }
+
+    // =================================
+    public void Die()
+    {
+        GameManager.instance.ShowDeathScreen();
+
+        this.gameObject.SetActive(false);
+    }
 }
