@@ -8,13 +8,13 @@ public class GameManager : MonoBehaviour
 
 	public GameObject deathScreen;
 
-	private void Awake()
+	private void Start()
 	{
 		instance = this;
 
 		this.deathScreen.SetActive(false);
 
-		StartCoroutine(this.LoadCurrentLevel());
+		StartCoroutine(this.LoadCurrentLevel(false));
 	}
 
 	// ===================================
@@ -32,23 +32,18 @@ public class GameManager : MonoBehaviour
 	// ===================================
 	public void LoadNextLevel()
 	{
-		GameInstance.gameLevelIndex++;
-		StartCoroutine(this.LoadCurrentLevel());
+		StartCoroutine(this.LoadCurrentLevel(true));
 	}
 
 	// ===================================
 	public void ReloadLevel()
 	{
-		StartCoroutine(this.LoadCurrentLevel());
+		StartCoroutine(this.LoadCurrentLevel(false));
 	}
 
 	// ===================================
-	public IEnumerator LoadCurrentLevel()
+	public IEnumerator LoadCurrentLevel(bool next)
 	{
-		Debug.Log(GameInstance.gameLevelIndex);
-		Debug.Log(SceneNames.LEVELS[
-				GameInstance.gameLevelIndex
-			]);
 		Scene scn = SceneManager.GetSceneByName(
 			SceneNames.LEVELS[
 				GameInstance.gameLevelIndex
@@ -58,6 +53,7 @@ public class GameManager : MonoBehaviour
 		AsyncOperation loading;
 
 
+		// Unloads the current scene
 		if (scn.isLoaded)
 		{
 			loading = SceneManager.UnloadSceneAsync(scn);
@@ -68,6 +64,12 @@ public class GameManager : MonoBehaviour
 			}
 		}
 
+		if (next)
+		{
+			GameInstance.gameLevelIndex++;
+		}
+
+		// Loads the current scene index
 		this.deathScreen.SetActive(false);
 		loading = SceneManager.LoadSceneAsync(
 			SceneNames.LEVELS[
