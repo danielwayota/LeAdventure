@@ -1,13 +1,23 @@
 fileFormatVersion: 2
-guid: 227f792e70232419a9ed5301592f29e6
+guid: 7d45625b5f32f5045ad4d7b8a9c99844
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Proto_Wall
-    21300002: Proto_Floor
-    21300004: Proto_Player
-    21300006: Proto_Key
-    21300008: Proto_Boss
-    21300010: Proto_Sword
+    21300000: Hero_Down_0
+    21300002: Hero_Down_1
+    21300004: Hero_Down_2
+    21300006: Hero_Down_2
+    21300008: Hero_Left_0
+    21300010: Hero_Left_1
+    21300012: Hero_Left_2
+    21300014: Hero_Left_2
+    21300016: Hero_Right_0
+    21300018: Hero_Right_1
+    21300020: Hero_Right_2
+    21300022: Hero_Right_2
+    21300024: Hero_Up_0
+    21300026: Hero_Up_1
+    21300028: Hero_Up_2
+    21300030: Hero_Up_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,9 +50,9 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,13 +111,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Proto_Wall
+      name: Hero_Down_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad561da14be2f442b71c1991d749399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Down_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d751fbe853a2447a3d1aaa6368a650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Down_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea0c15d0f9e1a64db342dd71bd599f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Left_0
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,19 +185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0adcf40cab004a5cb5e99bfcdaa8a9b
+      spriteID: f697c81ed6e833941bd1c460c22cab8c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Proto_Floor
+      name: Hero_Left_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 32
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,19 +205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92475b74a75f44e9f9efe4dd3afc2cf6
+      spriteID: a7d41bf684cd3314cb18f31b7126dd43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Proto_Player
+      name: Hero_Left_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 32
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,19 +225,79 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df9cc6fae68a84ba8a8bd4049808025c
+      spriteID: 87003e1773731064f975a7fcda07714d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Proto_Key
+      name: Hero_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e115ed7d99422164b82211d2ace66879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Right_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c567bd7f44d9942985b54c3a0fdd85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Right_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651800d9bacdff940809770cb3f142c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hero_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,19 +305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5c70ee26d2b47febecd6c422fd6027
+      spriteID: 583fa0bc4ff1d6e45a117a41b6d72365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Proto_Boss
+      name: Hero_Up_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,27 +325,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40b9a369af0b740b59ef22e2ec366bb3
+      spriteID: 639bd09ab9a8d96459de1e5aafd16193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Proto_Sword
+      name: Hero_Up_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.484375, y: 0.21875}
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1e7cb2cc6804f31a319a78c3ff43c3
+      spriteID: 01cf9948e918db04796d55bbf9ff2e28
       vertices: []
       indices: 
       edges: []
@@ -223,7 +353,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4b7525c006bc6404a8ca42067ccf95c3
+    spriteID: 7373dcbdc0409fa4b8c5f52c4a8d1dc3
     vertices: []
     indices: 
     edges: []

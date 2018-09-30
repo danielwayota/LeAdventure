@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114223077573560766}
   - component: {fileID: 50348815604533676}
   - component: {fileID: 61078821590907480}
+  - component: {fileID: 95552132034454278}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1270652874231188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -0.05, z: 0}
+  m_LocalPosition: {x: -0.135, y: 0.355, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -88,6 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.40705344, y: 0.77997684}
   m_EdgeRadius: 0
+--- !u!95 &95552132034454278
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270652874231188}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8cb0ccbca5ebbaf42b34be86ae477cea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114223077573560766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,7 +119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  hasSword: 0
 --- !u!212 &212887464770528946
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -133,10 +151,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -905216037
-  m_SortingLayer: 1
+  m_SortingLayerID: 1190426619
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 227f792e70232419a9ed5301592f29e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d45625b5f32f5045ad4d7b8a9c99844, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

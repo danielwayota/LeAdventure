@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Objects
+  - name: Decoration
     uniqueID: 3389751259
+    locked: 0
+  - name: Actors
+    uniqueID: 1190426619
+    locked: 0
+  - name: OverLay
+    uniqueID: 2608697121
     locked: 0
