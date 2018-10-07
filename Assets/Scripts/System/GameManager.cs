@@ -8,13 +8,18 @@ public class GameManager : MonoBehaviour
 
 	public GameObject deathScreen;
 
+    private MusicManager musicManager;
+
 	private void Start()
 	{
 		instance = this;
 
 		this.deathScreen.SetActive(false);
+        this.musicManager = FindObjectOfType<MusicManager>();
 
 		StartCoroutine(this.LoadCurrentLevel(false));
+
+        this.musicManager.PlayRandomMusic();
 	}
 
 	// ===================================
@@ -33,6 +38,7 @@ public class GameManager : MonoBehaviour
 	public void LoadNextLevel()
 	{
 		StartCoroutine(this.LoadCurrentLevel(true));
+        this.musicManager.PlayRandomMusic();
 	}
 
 	// ===================================

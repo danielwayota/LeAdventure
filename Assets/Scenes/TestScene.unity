@@ -2964,6 +2964,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114132212423323290, guid: 8d1f55ca65d538548bbe32b47df9856a,
+        type: 2}
+      propertyPath: doorSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d8faf6209d54db40a658a3b97c9cc44, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d1f55ca65d538548bbe32b47df9856a, type: 2}
   m_IsPrefabAsset: 0
@@ -3412,31 +3417,6 @@ Prefab:
     - target: {fileID: 4338073463755962, guid: 3d729b64bdc224e3788b1ecbd31e3364, type: 2}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029606944289054, guid: 3d729b64bdc224e3788b1ecbd31e3364, type: 2}
-      propertyPath: m_Name
-      value: OuOSword
-      objectReference: {fileID: 0}
-    - target: {fileID: 212435583872456040, guid: 3d729b64bdc224e3788b1ecbd31e3364,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300078, guid: 27e2766ba6799fa49960393be051c010,
-        type: 3}
-    - target: {fileID: 212435583872456040, guid: 3d729b64bdc224e3788b1ecbd31e3364,
-        type: 2}
-      propertyPath: m_SortingLayerID
-      value: 1190426619
-      objectReference: {fileID: 0}
-    - target: {fileID: 212435583872456040, guid: 3d729b64bdc224e3788b1ecbd31e3364,
-        type: 2}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 212435583872456040, guid: 3d729b64bdc224e3788b1ecbd31e3364,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d729b64bdc224e3788b1ecbd31e3364, type: 2}

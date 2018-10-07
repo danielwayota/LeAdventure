@@ -5,6 +5,8 @@ public class Door : MonoBehaviour
     public Sprite closed;
     public Sprite opened;
 
+    public AudioClip doorSound;
+
     private SpriteRenderer leRenderer;
 
     private BoxCollider2D[] colliders;
@@ -27,6 +29,7 @@ public class Door : MonoBehaviour
         if (h.UseKey())
         {
             this.leRenderer.sprite = opened;
+            AudioSource.PlayClipAtPoint(this.doorSound, this.transform.position);
             foreach (BoxCollider2D col in this.colliders)
             {
                 col.enabled = false;
