@@ -53,16 +53,17 @@ TextureImporter:
     21300096: EyeEnemy_0
     21300098: FireProjectileTile_0
     21300100: IceProjectileTile_0
-    21300102: GameTiles_51
+    21300102: MonkeyBossTile_0
     21300104: GreyBossTile_0
     21300106: HeadEnemy_1
     21300108: EyeEnemy_1
     21300110: FireProjectileTile_1
     21300112: IceProjectileTile_1
-    21300114: MonkeyBossTile_0
+    21300114: MonkeyBossTile_1
     21300116: GreyBossTile_1
     21300118: TrapTile_0
     21300120: TrapTile_1
+    21300122: EndOfLevel_Tile
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -1176,7 +1177,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GameTiles_51
+      name: MonkeyBossTile_0
       rect:
         serializedVersion: 2
         x: 64
@@ -1296,7 +1297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MonkeyBossTile_0
+      name: MonkeyBossTile_1
       rect:
         serializedVersion: 2
         x: 64
@@ -1371,6 +1372,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: db19f6b26d5535a47930d6f878111e15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EndOfLevel_Tile
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977feab832acb344187814ae4fe64d92
       vertices: []
       indices: 
       edges: []

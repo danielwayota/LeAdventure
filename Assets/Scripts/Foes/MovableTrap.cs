@@ -11,7 +11,7 @@ public class MovableTrap : Trap
 	private float theta;
 
 	// ============================
-	void Start()
+	protected virtual void Start()
 	{
 		this.startPosition = this.transform.position;
 		this.theta = 0;

@@ -47,6 +47,9 @@ TagManager:
   - name: Actors
     uniqueID: 1190426619
     locked: 0
+  - name: Hero
+    uniqueID: 1273233813
+    locked: 0
   - name: OverLay
     uniqueID: 2608697121
     locked: 0

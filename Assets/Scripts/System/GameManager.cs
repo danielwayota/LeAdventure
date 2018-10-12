@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 		this.deathScreen.SetActive(false);
         this.musicManager = FindObjectOfType<MusicManager>();
 
-		StartCoroutine(this.LoadCurrentLevel(false));
+		// StartCoroutine(this.LoadCurrentLevel(false));
 
         this.musicManager.PlayRandomMusic();
 	}

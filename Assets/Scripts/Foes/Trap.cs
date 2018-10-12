@@ -6,6 +6,9 @@ public class Trap : MonoBehaviour
 	// ============================
 	private void OnTriggerEnter2D(Collider2D other)
 	{
+		if (other.gameObject == null)
+			return;
+
 		Hero h = other.gameObject.GetComponent<Hero>();
 
 		if (h != null)

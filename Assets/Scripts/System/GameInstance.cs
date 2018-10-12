@@ -8,6 +8,7 @@ class SceneNames {
 	public static string GAME_BASE = "GameBase";
 
 	public static string[] LEVELS = {
-		"TestScene"
+		"Level0",
+		"Level1"
 	};
 }
